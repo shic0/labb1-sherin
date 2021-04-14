@@ -88,8 +88,8 @@ $image = get_the_post_thumbnail_url();
 								}
 								?>
 								<div class="text">
-									<h1><?php the_title(); ?></h1>
-									<?php the_content(); ?>
+									<h1><?php the_title();?></h1>
+									<?php the_content();?>
 								</div>
 								<img src="<?php echo get_template_directory_uri().'/img/city.jpg' ?>" />
 								
@@ -101,12 +101,9 @@ $image = get_the_post_thumbnail_url();
 
 		</main>
 
-		<?php
-		get_footer();
-		?>
-
-	</div>
-
+<?php
+get_footer();
+?>
 
 </body>
 
