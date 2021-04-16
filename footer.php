@@ -5,7 +5,8 @@
 	<div class="container">
 		<div class="row top">
 			<div class="col-xs-12 col-sm-6 col-md-4">
-				<h4>Kort om oss</h4>
+				<h4>Kort om oss</h4> 
+				<?php ?>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed sodales mauris. Aliquam felis est, efficitur vel fringilla quis, vehicula quis ex.</p>
 				<p>Phasellus tristique nunc in leo faucibus, a consequat nulla sagittis.</p>
 			</div>
@@ -47,7 +48,11 @@
 	</div>
 </footer>
 
-	<script src="<?php echo get_template_directory_uri().'/js/script.js';?>"></script>
-		<?php wp_footer(); ?>
+<script src="<?php echo get_template_directory_uri().'/js/script.js';?>"></script>
+<?php 
+wp_footer();
+ ?>
 
+</body>
+</html>
 

@@ -4,10 +4,10 @@
 	<meta charset="UTF-8" />
 	<title>Labb 1 Sherin</title>
 
-	<link href="<?php echo get_template_directory_uri().'/font-awesome.css';?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo get_template_directory_uri().'/bootstrap.css';?>" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style.css';?>">
-    <script src="<?php echo get_template_directory_uri().'./js/jquery.js';?>"></script>
+	<link href="<?php echo get_template_directory_uri().'/css/font-awesome.css';?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo get_template_directory_uri().'/css/bootstrap.css';?>" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/style.css';?>">
+    <script src="<?php echo get_template_directory_uri().'/js/jquery.js';?>"></script>
 
 <?php
 wp_head();
@@ -24,13 +24,9 @@ wp_head();
 				<a class="logo" href="index.html">Labb 1</a>
 			</div>
 			<div class="col-sm-6 hidden-xs">
-				<form id="searchform" class="searchform">
-					<div>
-						<label class="screen-reader-text">Sök efter:</label>
-						<input type="text" />
-						<input type="submit" value="Sök" />
-					</div>
-				</form>
+				<?php "banan";
+				get_search_form();
+				?>
 			</div>
 			<div class="col-xs-4 text-right visible-xs">
 				<div class="mobile-menu-wrap">
