@@ -24,7 +24,7 @@ wp_head();
 				<a class="logo" href="index.html">Labb 1</a>
 			</div>
 			<div class="col-sm-6 hidden-xs">
-				<?php "banan";
+				<?php 
 				get_search_form();
 				?>
 			</div>
